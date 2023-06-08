@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System</title>
+  <style
+    href="index.css"></style>
+    </head>
+    <body>
+        <div id="header">
+          <h1>Library Management System</h1>
+        </div>
+      
+        <div id="container">
+          <h2>Book List</h2>
+          <div id="book-list">
+            <!-- Book items will be dynamically added here -->
+          </div>
+      
+          <h2>Add New Book</h2>
+          <form id="add-book-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <input type="text" id="publish-date" placeholder="Publish Date" required>
+            <button type="submit">Add Book</button>
+          </form>
+        </div>
+        <script href="app.js"></script>
+        </body>
+</html>

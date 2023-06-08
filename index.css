@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  #book-list {
+    margin-top: 20px;
+  }
+
+  .book {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .book:last-child {
+    border-bottom: none;
+  }
+
+  .book h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .book p {
+    margin: 5px 0;
+  }
+
+  #add-book-form {
+    margin-top: 20px;
+  }
+
+  #add-book-form input[type="text"],
+  #add-book-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  #add-book-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
